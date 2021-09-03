@@ -4,18 +4,18 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'flutter_facebook_sdk'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A new flutter plugin project.'
   s.description      = <<-DESC
 A new flutter plugin project.
                        DESC
   s.homepage         = 'https://saadfarhan.com'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Saad Farhan' => 'saadfarhan124l@gmail.com' }
+  s.author           = { 'Sam Hirsch' => 'sam.hirsch66@gmail.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
-  s.dependency 'FBSDKCoreKit', '~> 9.1.0'
+  s.dependency 'FBSDKCoreKit', '~> 11.1.0'
   s.platform = :ios, '9.0'
 
   # Flutter.framework does not contain a i386 slice.
